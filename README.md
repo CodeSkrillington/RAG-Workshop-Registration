@@ -10,6 +10,7 @@ This is a single-page registration site for the **Retrieval Augmented Generation
 
 - `index.html` - Main page content
 - `style.css` - Styling and layout
+- `Singleton.png` - Faux logo design
 
 ## Features
 
