@@ -2,62 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
   <title>Workshop Registration</title>
   <meta name="description" content="Register for a free, in-person workshop." />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- Accessibility: allow keyboard users to skip repetitive content -->
-  <a href="#main" class="skip-link">Skip to main content</a>
 
-  <header>
-    <!-- Organization name or branding -->
-    <p>Community Career Center</p>
-  </header>
+  <fieldset>
+    <header>
+      <!-- Organization name or branding -->
+      <p>Singleton's Career Center</p>
+      <p><img src="Singleton.png" alt="Singleton's Career Center Logo"></p>
+    </header>
+  </fieldset>
 
   <main id="main">
-    <section>
-      <h1>Intro to YOUR_WORKSHOP_NAME</h1>
+    <fieldset>
+      <section>  
+        <h1>Retrieval Augmented Generation Workshop</h1>
 
-      <p>
-        Add a description for your workshop here.
-      </p>
+        <p>
+        Come learn how to build your own <b>Retrieval Augmented Generation (RAG)</b> system using local Large Language Models (LLMs)
+        </p>
 
-      <!-- Key details -->
-      <p>Data & Time</p>
-      <p>Modality</p>
-      <p>Price</p>
-
-      <!-- Primary action: exactly one -->
-      <a href="#register">Register</a>
-    </section>
+        <!-- Key details -->
+        <section>
+          <p><b>Date:</b> January 15, 2026</p>
+          <p><b>Time:</b> 10:00 AM - 4:00 PM</p>
+          <p><b>Location:</b> Singleton's Career Center, Room 101</p>
+          <p><b>Cost:</b> Free!</p>
+        </section>
+      </section>
+    </fieldset>
+    
 
     <!-- Supporting information -->
-    <section>
-      <h2>What you’ll get</h2>
-      <ul>
-        <li>Some outcome</li>
-        <li>Another outcome</li>
-        <li>And another outcome</li>
-      </ul>
-    </section>
+    <fieldset>
+      <section>
+        <h2>What You’ll Get</h2>
+        <ol>
+          <li>Local LLM Installation and Management</li>
+          <li>Document Vectorization Walkthrough</li>
+          <li>Hands-on RAG Project to Take Home</li>
+        </ol>
+
+        <h2>Target Audience</h2>
+        <ul>
+          <li>Developers interested in AI and machine learning</li>
+          <li>Anyone curious about LLMs and their applications</li>
+          <li>Professionals looking to enhance their AI knowledge</li>
+          <li>No prior AI experience necessary—all skill levels welcome!</li>
+        </ul>      </section>
+    </fieldset>
+    
 
     <!-- Registration -->
     <section id="register">
-      <h2>Register</h2>
+
 
       <form action="#" method="post">
 
-        <button type="submit"></button>
+        <button type="submit"><b>Register Now</b></button>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>Don't forget about footer content!</p>
+    <p><b>&copy; 2026 Singleton's Career Center</b></p>
   </footer>
 </body>
 </html>
