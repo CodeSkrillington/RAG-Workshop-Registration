@@ -21,6 +21,16 @@ This is a single-page registration site for the **Retrieval Augmented Generation
 
 ## How to Use
 
+
+### Clone the Repository
+
+```
+git clone <https://github.com/CodeSkrillington/RAG-Workshop-Registration.git>
+cd <RAG-Workshop-Registration>
+```
+
+### Run the Site
+
 1. Open `index.html` in a browser
 2. Edit `index.html` to update workshop details
 3. Edit `style.css` to customize colors and styling
